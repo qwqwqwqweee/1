@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8f1c3;
+    color: #000;
+}
+header {
+    background-color: #77b957;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img {
+    height: 50px;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #4caf50;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.about, .contact, .products {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #77b957;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+
+img {
+    width: 100px;
+}
