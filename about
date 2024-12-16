@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО Добрый Помидор - О нас</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="tomato-logo.png" alt="Логотип">
+    </div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="products.html">Продукция</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+    <div class="contacts">
+        <p>+7 904 033 2511</p>
+        <p>Email: dobripomidor@gmail.com</p>
+    </div>
+</header>
+<main>
+    <section class="about">
+        <h2>О компании</h2>
+        <p>ООО «Добрый Помидор» внедряет инновационные методы сельского хозяйства...</p>
+    </section>
+</main>
+<footer>
+    &copy; 2016–2024 ООО «Добрый Помидор». Все права защищены.
+</footer>
+</body>
+</html>
